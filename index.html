@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color:blueviolet ;">
+
+    <!-- menú de comida
+        cada orden con un botón
+
+        cuando el cliente seleccione una orden, esta se muestra en la página
+
+    -->
+    <div style="margin-top: 10%;display: grid; place-items: center;">
+        <h2>Pastas</h2>
+        <div>
+            <button id="1" onclick="mandarOrden(this.id)" style="margin-right: 15px;">1</button>
+            <h4 style=" float:right;margin-top: 0px">spaguetti</h4>
+        </div>
+        <div>
+            <button id="2" onclick="mandarOrden(this.id)" style="float:left; margin-right: 15px;">2</button>
+            <h4 style="float:right;margin-top: 0px">ravioles</h4>
+        </div>
+        <div>
+             <button id="3" onclick="mandarOrden(this.id)" style="float:left; margin-right: 15px;">3</button>
+            <h4 style="float:right;margin-top: 0px">lasagna</h4>
+        </div>
+        <div>
+            <button id="4" onclick="mandarOrden(this.id)" style="float:left; margin-right: 15px;">4</button>
+            <h4 style="float:right;margin-top: 0px">canelones</h4>
+        </div>
+        <div id="ordenSolicitada">
+            <img src="" alt="" title="">
+        </div>
+    </div>
+
+    <script src="menu.js"></script>
+</body>
+</html>
